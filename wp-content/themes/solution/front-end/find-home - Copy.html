@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Homeland</title>
+    <!-- Bootstrap core CSS -->
+    <link href="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/css/font-roboto.css" rel="stylesheet">
+    <link href="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/css/font-awesome.css" rel="stylesheet">
+    <!-- jquery and bootsrtap -->
+    <script src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/js/jquery.js"></script>
+    <script src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/js/bootstrap.js"></script>
+    <link href="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/css/main.css" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $(".click").click(function () {
+                $(this).parent().next(".toggle-div").toggle();
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+<header>
+    <div class="mini-bar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="margin-right collapse navbar-collapse pull-right">
+                    <ul class="nav navbar-nav navbar-sub">
+                        <li><a href="#">Login/Register</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">English <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">link1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- nav end -->
+                </div>
+                <!-- nav-collapse end -->
+            </div>
+            <!-- row end -->
+        </div>
+        <!-- container end -->
+    </div>
+    <!-- mini-bar end -->
+
+    <div class="main-menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-4">
+                            <div class="slogan">
+                                <p><span>New Homeland</span></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6 main-nav">
+                            <div class="margin-right">
+                                <ul class="main-nav-ul nav navbar-nav navbar-sub">
+                                    <li><a href="#">Search</a></li>
+                                </ul>
+                            </div>
+                            <!--/.nav-collapse -->
+                        </div>
+                        <!-- main-nav end -->
+                    </div>
+                    <!-- row end -->
+
+                </div>
+                <!-- col-lg-12 end -->
+            </div>
+            <!-- row end -->
+        </div>
+        <!-- container end -->
+    </div>
+    <!-- main-menu end -->
+
+</header>
+<!-- header end -->
+
+<section>
+<div class="container">
+<div class="row">
+<div class="col-lg-3 no-padding-right">
+    <div class="project-heading base-margin-top-bottom">
+        <div>
+            <h3 class="base-margin-bottom">SEARCH</h3>
+            <input class="input" placeholder="Country Name" type="text">
+
+            <div class="block-featured-tail clear-filter margin-right">
+                <a href="#" class="reduce-margin-left">Search</a>
+            </div>
+        </div>
+        <div class="base-margin-top-bottom">
+            <h3 class="base-margin-bottom">FILTERD BY :</h3>
+
+            <div class="filter white-bg">
+
+                <div class="type">
+                    <p><i class="click fa fa-caret-down"></i>Continent</p>
+
+                    <div class="toggle-div">
+                        <div class="checkbox">
+                            <input type="radio" name="continent" style="width: 10%" value=""/><span>Europe</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="continent" style="width: 10%" value=""/><span>North America</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="continent" style="width: 10%" value=""/><span>Asia</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="continent" style="width: 10%" value=""/><span>Africa</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="continent" style="width: 10%" value=""/><span>South America</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="type">
+                    <p><i class="click fa fa-caret-down"></i>Official Language</p>
+
+                    <div class="toggle-div">
+                        <div class="checkbox">
+                            <input type="radio" name="language" style="width: 10%" value=""/><span>English</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="language" style="width: 10%" value=""/><span>German</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="language" style="width: 10%" value=""/><span>Spanish</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="language" style="width: 10%" value=""/><span>Arabic</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="language" style="width: 10%" value=""/><span>French</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="language" style="width: 10%" value=""/><span>Portuguese</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="type">
+                    <p><i class="click fa fa-caret-down"></i>Landlocked</p>
+
+                    <div class="toggle-div">
+                        <div class="checkbox">
+                            <input type="radio" name="land" style="width: 10%" value=""/><span>Any</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="land" style="width: 10%" value=""/><span>Non-Landlocked</span>
+                        </div>
+                        <div class="checkbox">
+                            <input type="radio" name="land" style="width: 10%" value=""/><span>Landlocked</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="type">
+                    <p><i class="click fa fa-caret-down"></i>GDP</p>
+
+                    <div class="toggle-div">
+                        <label>From<input id="from" type="text"/></label>
+                        <label>To<input id="to" type="text"/></label>
+                    </div>
+                </div>
+                <br/><br/>
+
+            </div>
+            <div class="block-featured-tail clear-filter margin-right">
+                <a href="#" class="reduce-margin-left">Clear Filters</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="col-lg-9">
+    <div class="">
+        <div class="project-heading row base-margin-top-bottom">
+            <div class="col-lg-12">
+                <div class="col-lg-12 hidden-xs">
+                    <p><span class="head">Countries </span> Display 1-8 results</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="block col-lg-4 col-sm-4">
+            <div class="block-action">
+                <div class="block-img">
+                    <img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-img.jpg" class="img-responsive" alt=""/>
+
+                    <div class="block-icons">
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon3.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon2.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon.png" alt=""/></a>
+                    </div>
+                </div>
+                <div class="block-head">
+                    <p>6 October</p>
+                    <header>Promenade Residence</header>
+                </div>
+                <div class="block-tail">
+                    <p>Starting Price</p>
+                    <span>685,125 EGP</span>
+                </div>
+            </div>
+        </div>
+        <div class="block col-lg-4 col-sm-4">
+            <div class="block-action">
+                <div class="block-img">
+                    <img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-img.jpg" class="img-responsive" alt=""/>
+
+                    <div class="block-icons">
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon3.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon2.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon.png" alt=""/></a>
+                    </div>
+                </div>
+
+                <div class="block-head">
+                    <p>6 October</p>
+                    <header>Promenade Residence</header>
+                </div>
+                <div class="block-tail">
+                    <p>Starting Price</p>
+                    <span>685,125 EGP</span>
+                </div>
+            </div>
+        </div>
+        <div class="block col-lg-4 col-sm-4">
+            <div class="block-action">
+                <div class="block-img">
+                    <img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-img.jpg" class="img-responsive" alt=""/>
+
+                    <div class="block-icons">
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon3.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon2.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon.png" alt=""/></a>
+                    </div>
+                </div>
+
+                <div class="block-head">
+                    <p>6 October</p>
+                    <header>Promenade Residence</header>
+                </div>
+                <div class="block-tail">
+                    <p>Starting Price</p>
+                    <span>685,125 EGP</span>
+                </div>
+            </div>
+        </div>
+        <div class="block col-lg-4 col-sm-4">
+            <div class="block-action">
+                <div class="block-img">
+                    <img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-img.jpg" class="img-responsive" alt=""/>
+
+                    <div class="block-icons">
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon3.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon2.png" alt=""/></a>
+                        <a href="#"><img src="file:///C:/xampp/htdocs/basic/wp-content/themes/solution/front-end/assets/img/pro-icon.png" alt=""/></a>
+                    </div>
+                </div>
+
+                <div class="block-head">
+                    <p>6 October</p>
+                    <header>Promenade Residence</header>
+                </div>
+                <div class="block-tail">
+                    <p>Starting Price</p>
+                    <span>685,125 EGP</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="base-margin-top-bottom row">
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-3">
+
+    </div>
+    <div class="col-lg-3">
+        <a href="#" class="load-more">Load More</a>
+    </div>
+    <div class="col-lg-3">
+
+    </div>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
