@@ -149,18 +149,7 @@ $official_lang_values = $attribute_bl->get_attribute_values_lang_by_attribute_id
         });
 
         $(window).bind('load', function () {
-//        var full_url = decodeURIComponent(window.location.href);
-//            var full_url = window.location.href;
-//            full_url = full_url.split('/');
-//            params = full_url[5].split('&');
-//            console.log(params.length);
-//            if (params.length > 1) {
-//                $('#count').val(params[3]);
             get_search_results();
-//            } else {
-//                $('#count').val(page_count);
-//                get_search_results(null, null, null, 0, page_count, '2');
-//            }
         });
     });
     function get_search_attributes() {
